@@ -27,14 +27,14 @@ class MyApp extends StatelessWidget {
             ),
             Text(
               "Aygün Kərimova",
-              style: TextStyle(
+              style: GoogleFonts.pacifico(
                   fontSize: 40,
                   color: Colors.teal,
                   fontWeight: FontWeight.bold),
             ),
             Text(
               "MOBILE APP DEVELOPER",
-              style:TextStyle(
+              style:GoogleFonts.sourceSansPro(
                   fontSize: 20,
                   color: Colors.grey,
                   fontWeight: FontWeight.bold),
@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
                 ),
                 title: Text(
                   "+99567823168954",
-                  style: TextStyle(
+                  style: GoogleFonts.sourceSansPro(
                     fontSize: 20,
                     color: Colors.white,
                   ),
@@ -77,7 +77,7 @@ class MyApp extends StatelessWidget {
                 ),
                 title: Text(
                   "AygünKərimova@gmail.com",
-                  style: TextStyle(fontSize: 20, color: Colors.white),
+                  style: GoogleFonts.sourceSansPro(fontSize: 20, color: Colors.white),
                 ),
               ),
             ),
